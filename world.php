@@ -29,8 +29,6 @@ shuffle($second);
 
 $result=array();
 for ($i=0; $i<10; $i++) {
-  $ind=array_search($first[i],$world);
-  echo $ind;
   $res=$first[$i]." ".$second[$i];
   array_push($result, $res);
 }
